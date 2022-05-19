@@ -1,0 +1,33 @@
+{
+  "name": "typescript_template",
+  "version": "1.0.0",
+  "description": "typescript & webpack template",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack -w",
+    "build-ts": "tsc",
+    "server": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyawmyoaung-dev/ts_template.git"
+  },
+  "keywords": [
+    "typescript",
+    "webpack",
+    "template"
+  ],
+  "author": "kyawmyoaung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyawmyoaung-dev/ts_template/issues"
+  },
+  "homepage": "https://github.com/kyawmyoaung-dev/ts_template#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
